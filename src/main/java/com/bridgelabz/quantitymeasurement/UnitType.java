@@ -1,5 +1,5 @@
 package com.bridgelabz.quantitymeasurement;
 
 public enum UnitType {
-    LENGTH
+    LENGTH, VOLUME, WEIGHT, TEMPERATURE;
 }

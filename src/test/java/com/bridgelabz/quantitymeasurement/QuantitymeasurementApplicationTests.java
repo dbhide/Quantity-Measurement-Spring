@@ -21,7 +21,7 @@ class QuantitymeasurementApplicationTests {
 	}
 
 	@Test
-	void testForGettingUnitType() {
+	void givenQuantityMeasurement_GetUnitType() {
 		List<UnitType> actualList = new ArrayList<>();
 		actualList.add(UnitType.LENGTH);
 		List<UnitType> expectedList = iQuantityMeasurementService.getUnitType();
