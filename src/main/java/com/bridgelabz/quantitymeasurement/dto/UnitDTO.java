@@ -1,15 +1,35 @@
 package com.bridgelabz.quantitymeasurement.dto;
 
+import com.bridgelabz.quantitymeasurement.Unit;
 import com.bridgelabz.quantitymeasurement.UnitType;
 
 public class UnitDTO {
-    UnitType unitType;
+    Unit unitOne;
+    Unit unitTwo;
 
-    public UnitDTO(UnitType unitType) {
-        this.unitType = unitType;
+    double actualValue;
+
+    public Unit getUnitOne() {
+        return unitOne;
     }
 
-    public UnitType getUnitType() {
-        return unitType;
+    public Unit getUnitTwo() {
+        return unitTwo;
+    }
+
+    public double getActualValue() {
+        return actualValue;
+    }
+
+    public void setUnitOne(Unit unitOne) {
+        this.unitOne = unitOne;
+    }
+
+    public void setUnitTwo(Unit unitTwo) {
+        this.unitTwo = unitTwo;
+    }
+
+    public void setActualValue(double actualValue) {
+        this.actualValue = actualValue;
     }
 }
